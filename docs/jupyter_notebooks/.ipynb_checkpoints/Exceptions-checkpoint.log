@@ -1,0 +1,5 @@
+20201116201512	<class '__main__.ProjectBaseError'>	('Demonstrating base class for project',)
+20201116201559	<class '__main__.ProjectBaseError'>	('Demonstrating base class for project',)
+20201116201559	<class '__main__.ProjectRequiredValueError'>	('Missing value for first name', 'firstname')
+20201116201634	<class '__main__.ProjectBaseError'>	('Demonstrating base class for project',)
+20201116201634	<class '__main__.ProjectRequiredValueError'>	('Missing value for first name', 'firstname')

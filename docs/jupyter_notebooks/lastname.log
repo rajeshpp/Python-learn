@@ -1,0 +1,2 @@
+20201116201634	<class '__main__.ProjectRequiredValueError'>	('Missing value for last name', 'lastname', 'lastname.log')
+20201116215053	<class '__main__.ProjectRequiredValueError'>	('Missing value for last name', 'lastname', 'lastname.log')
