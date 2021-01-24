@@ -1,2 +1,1 @@
-Hello! Python
-How are you.
+{"Name": "Ice cream", "Flavours": ["Chocolate", "Pineapple"], "Toppings": true, "WaffleCone": "Yes"}
