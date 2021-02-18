@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cebcf9ab-2be8-4380-aae1-3ebcfb539a38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/jupyter_notebooks/.ipynb_checkpoints/DataStructures-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jupyter_notebooks/.ipynb_checkpoints/DataStructures-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jupyter_notebooks/.ipynb_checkpoints/practice-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jupyter_notebooks/.ipynb_checkpoints/practice-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jupyter_notebooks/DataStructures.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jupyter_notebooks/practice.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jupyter_notebooks/practice.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/jupyter_notebooks/DataStructures/Time Complexity .ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/fixture/test_file_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/fixture/test_file_fixture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/fixture/test_file_fixture_scope.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/fixture/test_file_fixture_scope.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (2).py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (2).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (3).py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (3).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (4).py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (4).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_parametrized_addition.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_parametrized_addition.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,26 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/temp/1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/temp/test_fun.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +54,12 @@
         <option value="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/unittest/test_shapeArea.py" />
         <option value="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/temp/1.py" />
         <option value="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/temp/test_fun.py" />
+        <option value="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (2).py" />
+        <option value="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (3).py" />
+        <option value="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (4).py" />
+        <option value="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_parametrized_addition.py" />
+        <option value="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/fixture/test_file_fixture.py" />
+        <option value="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/fixture/test_file_fixture_scope.py" />
       </list>
     </option>
   </component>
@@ -122,14 +113,6 @@
               <item name="jupyter_notebooks" type="462c0819:PsiDirectoryNode" />
               <item name="pythontesting" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="jupyter_notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="pythontesting" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -139,6 +122,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/unittest" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
@@ -285,7 +269,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -300,7 +283,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49867898" visible="true" weight="0.370945" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49867898" visible="true" weight="0.3794076" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501321" side_tool="true" weight="0.32863188" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32863188" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32863188" />
@@ -489,8 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/__init__.py" />
     <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/unittest/areas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -503,15 +484,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/temp/test_fun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="144">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/temp/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <caret column="6" lean-forward="true" selection-start-column="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/unittest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/append_file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/readonly_file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/cal_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/test_simple.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/test_exceptions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (3).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_multiple_simple (4).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/multitest/test_parametrized_addition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/fixture/test_file_fixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/fixture/test_file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/conftest/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/jupyter_notebooks/pythontesting/pytest/fixture/test_file_fixture_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

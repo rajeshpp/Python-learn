@@ -37,15 +37,20 @@ def test_file_size_on_write(test_file):
 
 
 
+'''
+>>> pytest test_file_fixture.py -v
+test_file_fixture.py::test_write_ten_lines PASSED                        [ 50%]
+test_file_fixture.py::test_file_size_on_write PASSED                     [100%]
 
+>>> pytest test_file_fixture.py -v
+test_file_fixture.py::test_write_ten_lines
+Creating file
 
+Writing ten lines
+PASSED
+test_file_fixture.py::test_file_size_on_write
+Creating file
 
-
-
-
-
-
-
-
-
-	
+Writing one line
+PASSED
+'''
