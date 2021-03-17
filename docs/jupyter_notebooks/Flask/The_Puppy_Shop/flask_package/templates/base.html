@@ -19,9 +19,13 @@
                 <a href="{{ url_for('index') }}"><h1 class="title">The Puppy Shop</h1></a>
                 <nav>
                     <ul>
-                        <li><a href="#">Register</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="{{ url_for('feedback') }}">Feedback</a></li>
+                        {% if current_user.is_authenticated %}
+                            <li><a href="{{ url_for('logout') }}">logout</a></li>
+                            <li><a href="{{ url_for('feedback') }}">Feedback</a></li>
+                        {% else %}
+                            <li><a href="{{ url_for('register') }}">Register</a></li>
+                            <li><a href="{{ url_for('login') }}">Login</a></li>
+                        {% endif %}
                     </ul>
                 </nav>
             </header>
@@ -29,6 +33,19 @@
 
         <div class="main-container">
             <div class="main wrapper clearfix">
+                <article class="flashes">
+                    {% with messages = get_flashed_messages() %}
+                        {% if messages %}
+                        <ul>
+                            {% for message in messages %}
+                            <li>{{message}}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    {% endwith %}
+                </article>
+
+
                 {% block content %}
                 {% endblock %}
 
@@ -38,6 +55,16 @@
                     <h3>Working Hours:</h3>
                     <p>Mon-Fri: 6 AM - 6 PM</p>
                     <p>Sat-Sun: 6 AM - 10 AM</p>
+
+                    {% if new_feedback %}
+                        <ul>
+                            {% for bm in new_feedback %}
+                                <li>{{bm.url}}</li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        No feedback yet
+                    {% endif %}
                 </aside>
 
                 {% endblock %}

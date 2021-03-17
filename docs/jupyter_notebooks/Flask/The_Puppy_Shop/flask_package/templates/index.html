@@ -11,9 +11,16 @@ Project -- Welcome!
     <article>
         <header>
             <h1>Welcome!</h1>
+            <body>
+                <img src="../static/img/puppy.jpg" alt="puppy">
+            </body>
             <h3>Welcome to the Puppy Shop.</h3>
             <p>Place for all puppies.</p>
         </header>
+        <section>
+            <h3>Available Puppies:</h3>
+            <li><a href="{{ url_for('sale') }}">Click Here</a></li>
+        </section>
     </article>
 
 {% endblock%}
